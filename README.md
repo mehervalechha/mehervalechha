@@ -5,7 +5,7 @@
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on my assignments 
+- 🔭 I’m currently working on designing a website 
 - 🌱 I’m currently learning webdesign 
 - 👯 I’m looking to collaborate on multiple webdesign projects 
 - 🤔 I’m looking for help with nothing as of now 
