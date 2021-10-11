@@ -1,1 +1,68 @@
 This folder is for ITP-03 
+
+
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1> Calculator </h1>
+    Numbers: 
+    <input type = "button" value = "1">
+    <input type = "button" value = "2">
+    <input type = "button" value = "7">
+    <input type = "button" value = "9">
+  
+                
+                Operands:
+                <input type = "button" value = "+ ">
+                <input type = "button" value = "/">
+                
+Calculate: 
+                        <input type ="textbox">
+<p id ="result"> </p>
+<script>
+    let a = 1 + 2 ; 
+    document.getElementByID("result").innerHTML = a; 
+
+    let b = 1 + 7 ; 
+    document.getElementByID("result").innerHTML = b;
+
+    let c = 1 + 9 ; 
+    document.getElementByID("result").innerHTML = c;
+
+    let d = 2 + 7 ; 
+    document.getElementByID("result").innerHTML = d;
+
+    let e = 2 + 9  ; 
+    document.getElementByID("result").innerHTML = e;
+
+
+    let f = 7 + 9  ; 
+    document.getElementByID("result").innerHTML = f;
+
+
+    let g = 1 / 2  ; 
+    document.getElementByID("result").innerHTML = g; 
+
+
+    let h = 1 /7  ; 
+    document.getElementByID("result").innerHTML = h;
+
+    let i = 1 /9  ; 
+    document.getElementByID("result").innerHTML = i;
+
+    let j = 2 / 7 ; 
+    document.getElementByID("result").innerHTML = j;
+
+    let k = 2 / 9 ; 
+    document.getElementByID("result").innerHTML = k;
+
+    let l = 7 / 9 ; 
+    document.getElementByID("result").innerHTML = l;
+
+</script>
+<h2> Mvalechh </h2>
+</body>
+
+</html> 
