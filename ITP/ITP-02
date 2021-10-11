@@ -1,1 +1,54 @@
 This folder is for ITP-02 
+
+
+<!DOCTYPE html>
+
+
+<html lang = "en">
+
+<head>
+    <<meta charset="utf-8">
+    <h1> Meher Valechha </h1>
+</head>
+
+
+<body>
+
+    <?php
+
+    $Time = date('h:i:s');
+
+$Morning1 = date('05:45:00');
+$Morning2 = date('11:59:59');
+
+$Afternoon1 = date('12:00:00');
+$Afternoon2 = date('17:59:59');
+
+$Night1 = date('18:00:00');
+$Night2 = date('00:00:00');
+$Night3 = date('5:44:59');
+
+echo "$Time";
+
+if ($Time >= $Morning1 and $Time <= $Morning2) {
+    echo "Guten Morgen" ;
+}
+
+
+   elseif ($Time >= $Afternoon1 and $Time <= $Afternoon2) {
+        echo "Guten Tag" ;
+}
+
+elseif ($Time >= $Night1 and $Time >= $Night3) {
+    echo "Guten Abend" ;
+}
+
+elseif ($Time >= $Night2 and $Time <= $Night3) {
+    echo "Guten Abend" ;
+}
+
+
+?>
+</body>
+
+</html>
